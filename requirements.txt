@@ -1,0 +1,6 @@
+uncertainties
+ipycache
+iminuit
+probfit
+pymc
+matplotlib
