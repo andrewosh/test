@@ -9,6 +9,6 @@ RUN /bin/bash -c "source activate python2 && ipython kernel install --user"
 
 RUN /home/main/anaconda2/bin/pip install --upgrade pip
 
-RUN pip install -q uncertainties ipycache iminuit probfit
+RUN /home/main/anaconda2/bin/pip install -q uncertainties ipycache iminuit probfit
 
 ENV SHELL /bin/bash
